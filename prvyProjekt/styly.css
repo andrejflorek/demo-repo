@@ -1,0 +1,129 @@
+*{/*urči celej stranke prvotne rozmery*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(13, 21,312);
+    text-align: center;/*zarovnanie textu*/
+    font-family: Arial, sans-serif;/*font pisma + paličkove alebo bez*/
+    text-shadow: 3px 3px 4px black;/*tien textu */
+    border: 3px solid black;/*ramček*/
+    border-radius: 30px ;/*radius ramčeku*/
+    margin: 20px 20px 0px 20px;/*velkost ramčeku*/
+    width: 300px;/*širka textu*/
+    margin: 50px auto;/*dopočitava pri zväčšovani a zmenšovani prehliadača velkost obsahu*/
+    box-sizing: border-box;
+    position: fixed;/*fixed ,blok ostava na mieste aj pri skrolovani*/
+    left: 570px;    
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    position: relative;
+    top: -10px;
+}
+
+/* toto je komentar */
+
+.jedna {
+    text-align: justify;    /*zarovnanie textu*/
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif,serif;
+    position: absolute; /*posuva sa voči nadriadenemu elemntu*/
+    bottom: 1px;
+}
+
+.dva {
+    color: chocolate;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif,serif;
+}
+
+form {
+    padding: 10px;
+}
+
+input{
+    margin: 10px; /*vonkajšia medzera mezi slovami*/
+    padding: 10px;/*Vnutorna velkost slov akože*/
+}
+
+.index {
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 5px;
+}
+
+.index:hover{/*hover:zmeni vyzor objektu textu ked ukažem nan kurzorom*/
+    background: white;
+    color: blue;
+}
+
+img{
+    width: 150px;
+    height: 130px;
+    float: right;
+    box-shadow: 10px 20px 20px black;
+    margin-left: 10px;
+}
+
+iframe{
+    border-radius: 50px;
+}
+
+.prvy{
+    text-align: center;
+    text-decoration: none;    /*zruši čiarku pod odkazom ,zakryje všetku dekoraciu textu*/
+    font-size: 30px;
+    color: chocolate;
+    border: 2px solid black;
+    display:inline;
+    margin: 40px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    position: relative;/*relative-posuva sa voči povodnej polohe */
+    top: 100px;
+    
+}
+
+.druhy{
+    text-decoration: none;
+    font-size: 40px;
+    color: coral;
+
+}
+
+.stredna{
+    text-align: center;
+
+}
+
+.instagram{
+    color: chartreuse;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.gmail{
+    color: greenyellow;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*inline- paddingy po všetkych stranach ,marginy iba vlavo a pravo
+ inline-block:ma marginy a padingy po všetkych stranach ,ma vyšku a širku,nema elementy vedla seba
+ block -ma marginy a paddingy po všetkych strankach ,ma vyšku a širku ,každy element je na jednom riadku*/
+
+ /*clearfix {
+content:  "";
+clear: both;
+}*/

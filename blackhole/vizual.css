@@ -1,0 +1,107 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*horne menu*/
+
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding:50px;
+}
+
+nav ul {
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+    top:-90px;
+    left:80px;
+}
+
+nav ul li{
+        list-style-type: none;
+        float: left;
+        width: 100px;
+        text-align: center;
+        font-size: 30px;
+        margin-top:-30px;
+        display: block;
+        
+        
+}
+header hr {
+    width: 1660px;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(196, 41, 21);
+    font-size: 32px;
+}
+
+.Buy{
+    color: black;
+}
+
+.Add{
+    margin-left: 200px;
+}
+
+ .clearfix::after {
+content:  "";
+display: block;
+clear: both;
+}
+
+/*Hlavne menu*/
+
+h2 {
+    margin-left: 30px;
+    font-size: 25px;
+    width: 100px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+main a{
+   font-size: 20px;
+   color: black;
+   display: block;
+   width: 100px; 
+   position: fixed;
+   padding: 20px;
+   top:203px;
+   left: 600px;
+
+}
+
+.property{
+    padding: 0;
+    display: block;
+    width: 130px;
+    margin-left: 50px;
+    position: relative;
+    color: gray;
+    font-size: 25px;
+}
+
+.filter-box{
+    display: block;
+    margin-left: 50px;
+    color: gray;
+}  
+
+main label input {
+    transform: scale(1.3);
+    margin:8px;
+
+}
