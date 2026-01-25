@@ -146,10 +146,33 @@ body {
 .gallery{
     display: grid;
      grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
-     max-width: 100px;
+     gap:50px;
+     max-width: 600px;
+     margin: 0 auto;
 }
 
-img {
-    border: 2px solid black;
+.gallery img {
+    border-radius: 8px;
+    width: 100%;
+    object-fit:cover;
+    padding: 10px;
+}
+
+.card{
+    background: white;
+    padding: 1px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.gallery h4{
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.gallery p{
+    text-align:left;
+    padding: 10px;
 }
