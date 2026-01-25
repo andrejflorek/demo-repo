@@ -1,78 +1,173 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!---bude to zobrazovat na každom zariadeni rovnako-->
     <link rel="stylesheet" href="vizual.css">
     <title>Real Estate</title>
 </head>
 <body>
-    <header>
-        <h1>RealEstate</h1>
-        <hr>
-        <nav>
-            <ul>
-                <li><a class="Buy" href="#">Buy</a></li>
-                <li><a href="#">Sell</a></li>
-                <li><a href="#">Rent</a></li>
-                <li><a class="Add" href="#">+&nbsp;Add&nbsp;Listing</a></li>
-                
-            </ul>
-        </nav>
 
-     </header>
+<header class="header">
+    <h1>RealEstate</h1>
+    <nav>
+        <ul class="nav-list">
+            <li><a class="Buy" href="#">Buy</a></li>
+            <li><a href="#">Sell</a></li>
+            <li><a href="#">Rent</a></li>
+            <li><a class="Add" href="#">+ Add Listing</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
 
-    <main>
+<main class="main">
+
+              <div class="page-container">
+
+
+        <div class="search-header">
+            <h3>Showing 577 search results</h3>
+            <select class="price-select">
+            <option value="">Any</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+        </select>
+
+        </div>
+    </div>
+
+    <div class="gallery">
+        <img src="obrazky/image1.png" alt=""><br>
+        <h4>1,800,000€</h4><br>
+        <p>100 West,15th Street</p>
+        <img src="obrazky/image2.png" alt=""><br>
+        <h4>1,800,000€</h4><br>
+        <p>100 West,15th Street</p>
+        <img src="obrazky/image3.png" alt=""><br>
+        <h4>1,800,000€</h4><br>
+        <p>100 West,15th Street</p>
+        <img src="obrazky/image4.png" alt=""><br>
+        <h4>1,800,000€</h4><br>
+        <p>100 West,15th Street</p>
+    </div>
+
+    <div class="filters-header">
         <h2>Filters</h2>
-        <a href="#">Reset&nbsp;Filters</a>
-        <!--Filter č.1-->
-        <h3 class="Property">Property&nbsp;type</h3>
-        <label class="filter-box">
-            <input type="checkbox"> House
-        </label>
+        <a class="reset" href="#">Reset Filters</a>
+    </div>
+ 
 
-        <label class="filter-box">
-            <input type="checkbox"> Apartment
-        </label>
+    <!-- Filter 1 -->
+    <h3 class="property">Property type</h3>
+    <label class="filter-box"><input type="checkbox"> House</label>
+    <label class="filter-box"><input type="checkbox"> Apartment</label>
+    <label class="filter-box"><input type="checkbox"> Room</label>
+    <label class="filter-box"><input type="checkbox"> Townhall</label>
+    <label class="filter-box"><input type="checkbox"> Parking</label>
 
-        <label class="filter-box">
-            <input type="checkbox"> Room
-        </label>
+    <!-- Filter 2 -->
+    <h3 class="property">Style of home</h3>
+    <label class="filter-box"><input type="checkbox"> A-Frame</label>
+    <label class="filter-box"><input type="checkbox"> Bungalow</label>
+    <label class="filter-box"><input type="checkbox"> Cottage</label>
+    <label class="filter-box"><input type="checkbox"> Dome</label>
+    <label class="filter-box"><input type="checkbox"> Spanish</label>
 
-        <label class="filter-box">
-            <input type="checkbox"> Townhall
-        </label>
+    <!-- Filter 3 -->
+     <div class="filters-container">
+    <h3 class="property">Min.&nbsp;Price</h3>
+    <div class="filter-row">
+        <select class="price-select">
+            <option value="">Any</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+            <option value="4000">4000</option>
+            <option value="5000">5000</option>
+        </select>
+        </div>
 
-        <label class="filter-box">
-            <input type="checkbox"> Parking
-        </label>
-        <!--Filter č.2-->
-        <h3 class="Property">Style&nbsp;of&nbsp;home</h3>
-        <label class="filter-box">
-            <input type="checkbox"> A-Frame
-        </label>
+    <h3 class="property">Max.&nbsp;Price</h3>
+    <div class="filter-row">
+        <select class="price-select">
+            <option value="">Any</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+            <option value="4000">4000</option>
+            <option value="5000">5000</option>
+        </select>
+    </div>
+     </div>
 
-        <label class="filter-box">
-            <input type="checkbox"> Bungalov
-        </label>
+    <!--  Filter 4 -->
+     <div class="filters-container">
+    <h3 class="property">Bedroom</h3>
+    <div class="filter-row">
+        <select class="price-select">
+            <option value="">Any</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+            <option value="4000">4000</option>
+            <option value="5000">5000</option>
+        </select>
+        </div>
 
-        <label class="filter-box">
-            <input type="checkbox"> Cottage
-        </label>
+    <h3 class="property">Bathroom</h3>
+    <div class="filter-row">
+        <select class="price-select">
+            <option value="">Any</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+            <option value="4000">4000</option>
+            <option value="5000">5000</option>
+        </select>
+    </div>
+     </div>
 
-        <label class="filter-box">
-            <input type="checkbox"> Dome
-        </label>
+     <!--  Filter 5 -->
+     <div class="filters-container">
+    <h3 class="property">Size&nbsp;(Min)</h3>
+    <div class="filter-row">
+        <select class="price-select">
+            <option value="">Any</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+            <option value="4000">4000</option>
+            <option value="5000">5000</option>
+        </select>
+        </div>
 
-        <label class="filter-box">
-            <input type="checkbox"> Spanish
-        </label>
-        
+    <h3 class="property">Size&nbsp;(Max)</h3>
+    <div class="filter-row">
+        <select class="price-select">
+            <option value="">Any</option>
+            <option value="1000">1000</option>
+            <option value="2000">2000</option>
+            <option value="3000">3000</option>
+            <option value="4000">4000</option>
+            <option value="5000">5000</option>
+        </select>
+    </div>
+     </div>
 
-    </main>
+   <!--  Filter 6 --> 
+    <h3 class="property">Accessibility Features</h3>
+    <label class="filter-box"><input type="checkbox"> Extra-wide doorways</label>
+    <label class="filter-box"><input type="checkbox"> Ramps</label>
+    <label class="filter-box"><input type="checkbox"> Grab bars</label>
+    <label class="filter-box"><input type="checkbox"> Lower counter heights</label>
+    <label class="filter-box"><input type="checkbox"> Spanish</label>
 
-    <footer>
 
-    </footer>
-    
+</main>
+
+<footer></footer>
+
 </body>
 </html>
