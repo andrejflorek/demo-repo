@@ -22,53 +22,14 @@
 </header>
 
 <main class="main">
-
-              <div class="page-container">
-
-
-        <div class="search-header">
-            <h3>Showing 577 search results</h3>
-            <select class="price-select">
-            <option value="">Any</option>
-            <option value="1000">1000</option>
-            <option value="2000">2000</option>
-            <option value="3000">3000</option>
-        </select>
-
-        </div>
-    </div>
-
-    <div class="gallery">
-        <div class="card">
-            <img src="obrazky/image1.png" alt="">
-        <h4>1,800,000€</h4>
-        <p>100 West,15th Street</p>
-        </div>
-
-        <div class="card">
-        <img src="obrazky/image2.png" alt="">
-        <h4>1,800,000€</h4>
-        <p>100 West,15th Street</p>
-        </div>
-
-        <div class="card">
-        <img src="obrazky/image3.png" alt="">
-        <h4>1,800,000€</h4>
-        <p>100 West,15th Street</p>
-        </div>
-
-        <div class="card">
-        <img src="obrazky/image4.png" alt="">
-        <h4>1,800,000€</h4>
-        <p>100 West,15th Street</p>
-        </div>
-    </div>
-
-    <div class="filters-header">
-        <h2>Filters</h2>
-        <a class="reset" href="#">Reset Filters</a>
-    </div>
- 
+    <div class="layout">
+        <!--  Ľave menu -->
+        <aside class="filters">
+         <div class="filters-header">
+         <h2>Filters</h2>
+         <a class="reset" href="#">Reset Filters</a>
+         </div>
+  
 
     <!-- Filter 1 -->
     <h3 class="property">Property type</h3>
@@ -143,6 +104,7 @@
      <!--  Filter 5 -->
      <div class="filters-container">
     <h3 class="property">Size&nbsp;(Min)</h3>
+     
     <div class="filter-row">
         <select class="price-select">
             <option value="">Any</option>
@@ -165,7 +127,7 @@
             <option value="5000">5000</option>
         </select>
     </div>
-     </div>
+
 
    <!--  Filter 6 --> 
     <h3 class="property">Accessibility Features</h3>
@@ -174,8 +136,56 @@
     <label class="filter-box"><input type="checkbox"> Grab bars</label>
     <label class="filter-box"><input type="checkbox"> Lower counter heights</label>
     <label class="filter-box"><input type="checkbox"> Spanish</label>
+    
+                
+        </aside>
 
+<!--  Stredny vyber -->
+    <section class="results">
+            <div class="search-header">
+                <h3>Showing 577 search results</h3>
+                <select class="price-select">
+                <option value="">Any</option>
+                <option value="1000">1000</option>
+                <option value="2000">2000</option>
+                <option value="3000">3000</option>
+                </select>
+            </div>
 
+    <div class="gallery">
+        <div class="card">
+            <img src="obrazky/image1.png" alt="">
+        <h4>1,800,000€</h4>
+        <p>100 West,15th Street</p>
+        </div>
+
+        <div class="card">
+        <img src="obrazky/image2.png" alt="">
+        <h4>1,800,000€</h4>
+        <p>100 West,15th Street</p>
+        </div>
+
+        <div class="card">
+        <img src="obrazky/image3.png" alt="">
+        <h4>1,800,000€</h4>
+        <p>100 West,15th Street</p>
+        </div>
+
+        <div class="card">
+        <img src="obrazky/image4.png" alt="">
+        <h4>1,800,000€</h4>
+        <p>100 West,15th Street</p>
+        </div>
+    </div>
+    </section>
+
+    <aside class="map">
+        <div class="map-placeholder">
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41578.63728036167!2d19.31691775!3d49.358492049999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ssk!2ssk!4v1769458434901!5m2!1ssk!2ssk"></iframe>
+        </div>
+    </aside>
+
+</div>
 </main>
 
 <footer></footer>
